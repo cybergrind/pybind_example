@@ -32,3 +32,5 @@
 *.app
 *~
 /build/
+__pycache__
+/venv/

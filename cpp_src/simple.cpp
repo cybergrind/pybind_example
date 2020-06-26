@@ -14,7 +14,7 @@ public:
 
 int add(long i, long j) {
   auto s = Some();
-  return 2 * (i + j);
+  return i + j;
 }
 
 
