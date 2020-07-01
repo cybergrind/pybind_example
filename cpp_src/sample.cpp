@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include <pybind11/pybind11.h>
 
-class Some {
+class SampleClass {
 public:
-  Some() {
+  SampleClass() {
     printf("Constructor\n");
   }
-  ~Some() {
+  ~SampleClass() {
     printf("Destructor\n");
   }
 };
 
 
 int add(long i, long j) {
-  auto s = Some();
+  auto s = SampleClass();
   return i + j;
 }
 

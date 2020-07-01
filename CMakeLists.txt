@@ -3,4 +3,4 @@ project(example)
 
 add_subdirectory(pybind11)
 set(PYBIND11_CPP_STANDARD -std=c++1z)
-pybind11_add_module(example cpp_src/simple.cpp)
+pybind11_add_module(example cpp_src/sample.cpp)
